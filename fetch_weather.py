@@ -35,7 +35,7 @@ def main(argv=None):
     args = sys.argv[1:] if argv is None else argv
 
     if not args:
-        print("Usage: python hello_world.py <city>")
+        print("Usage: python fetch_weather.py <city>")
         return 1
 
     city = " ".join(args)
